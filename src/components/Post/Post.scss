@@ -1,0 +1,30 @@
+.Post {
+    width: 250px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,.1), 0 2px 3px rgba(0,0,0,.2);
+    margin: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .2s linear;
+    position: relative;
+
+    &:hover {
+        transform: rotate(1deg);
+        top: -2px;
+        left: 2px;
+        box-shadow: 0 4px 10px 4px rgba(0,0,0,.1), 0 2px 3px rgba(0,0,0,.2);
+    }
+
+    &:active {
+        background-color: rgb(245, 245, 245);
+    }
+}
+
+.Author {
+    margin: 16px 0;
+    color: #ccc;
+}
